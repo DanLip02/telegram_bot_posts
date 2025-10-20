@@ -41,7 +41,7 @@ async def add_clothes(update: Update, context: ContextTypes.DEFAULT_TYPE):
     else:
         # Если это команда /add
         await update.message.reply_text(message, reply_markup=reply_markup)
-    await update.message.reply_text(message)
+    # await update.message.reply_text(message)
 
 
 # Обработчик нажатий на инлайн-кнопки
